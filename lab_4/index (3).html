@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body><form action='https://httpbin.org/get' method='get'>       
+      
+    <legend>Моя перша HTML-форма</legend>
+    <label for="name">Ім'я:</label>
+    <input type="text" id="name" name="name"><br>
+    <label for="birthday">День народження:</label>
+    <input type="text" id="birthday" name="birthday" placeholder="дд.мм.гггг"><br>
+    <label for="email">Імейл:</label>
+    <input type="text" id="email" name="email"><br>
+    <label for="message">Повідомлення:</label>
+    <input type="text" id="message" name="message"><br>
+  
+    <button type="submit">Надіслати</button>
+  <button type="reset">Очислити</button>
+  </form>
+ 
+            <picture>
+<source srcset="https://picsum.photos/seed/picsum/1000/400" media="(min-width: 468px)"/>
+<img src="https://picsum.photos/seed/picsum/1000/400" alt="picture"/>
+</picture>
+            
+<form action='https://httpbin.org/get' method='get'>
+       <fieldset>     
+<legend>Ваші улюблені напої?</legend>
+<label for="water">Вода</label>
+  <input type="checkbox" id="water" name="water" value="drinks"/>
+  
+
+<label for="juice">Фруктовий сік</label>
+
+  <input type="checkbox" id="juice" name="juice" value="drinks"/>
+ 
+
+    
+   
+  <label for="coffee">Кава</label>
+  <input type="checkbox" id="coffee" name="coffee" value="drinks"/>
+             
+       </fieldset>
+
+    <button type="submit">Надіслати</button>
+    <form action='https://httpbin.org/get' method='get'>
+  <fieldset>
+  <legend>Моя національність</legend>
+        <label for="ukrainian">Українець</label>
+    <input type="radio" id="ukrainian" name="ukrainian"><br>
+    <label for="frenchman">Француз</label>
+    <input type="radio" id="frenchman" name="frenchman"><br>
+    <label for="other">Інше</label>
+    <input type="radio" id="other" name="other"><br>
+  </fieldset>
+
+    <button type="submit">Надіслати</button>
+    </form>
+  </body>
+</html>
