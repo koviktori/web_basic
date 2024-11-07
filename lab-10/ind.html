@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-slale=1.0">
+        <title>CurryWorld</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div class="container">
+            <header>
+            <h1>Знайди потрібне місце</h1>
+            <p>Введіть назву міста та виберіть категорії, щоб отримати рекомендації щодо місць для відвідування</p>
+            </header>
+            <form id="cityForm">
+<label for="cityInput">Назва міста</label>
+            <input type="text" id="cityInput" placeholder="Введіть назву міста" required />
+            <h2>Виберіть категорії</h2>
+            <div class="categories">
+                <label><input type="checkbox" value="музеї">
+                    Музеї</label>
+                    <label><input type="checkbox" value="парки">
+                        Парки</label>
+                    <label><input type="checkbox" value="ресторани">
+                        Ресторани</label>
+                        <label><input type="checkbox" value="архітектурні пам'ятки">
+                            Архітектурні пам'ятки </label>
+            </div>
+            <button id="submitBtn">Показати місця</button>
+            </form>
+        <div id="results" class="results"></div>
+        <h2>Результати</h2>
+        <p>Тут з'являться рекомендації після введення даних.</p>
+        </div>
+        <footer>
+            <p>&copy; 2024 Рекомендаційний сервіс. всі права захищені.</p>
+        </footer>
+        <script src="app.js"></script>
+    </body>
+</html>
